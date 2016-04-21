@@ -11,7 +11,7 @@ The project is made up of a schematic, PCB layout, bill of materials (BOM), and 
 
 DETAILS
 
-The SpektreWorks Solo Multi-Charger is a single circuit board that can charge up to four Solo Smart Batteries, the hand controller, and two USB devices. The board requires an external 24VDC power supply capable of at least 5A.
+The SpektreWorks Solo Multi-Charger is a single circuit 4-layer PCB that can charge up to four Solo Smart Batteries, the hand controller, and two USB devices. The board requires an external 24VDC power supply capable of at least 5A.
 
 In order to keep the component count and power requirements to a reasonable level, only two batteries charge at a time. Once a battery is done charging, the circuit automatically begins charging the next battery in the queue with no user intervention. The circuit always charges the battery with highest state of charge first. This way, the user only has to wait the shortest possible time to retrieve a fully charged battery.
 
