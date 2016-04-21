@@ -81,7 +81,7 @@ typedef unsigned long ulong;
 #define ADC2AMPS 0.0048876
 #define VOLTS_THRESH 14.5
 #define AMPS_THRESH 0.050
-#define MAX_AMPS 3.0
+#define MAX_AMPS 3.3
 #define MAX_VOLTS 16.8
 #define DAC_15V 450
 
