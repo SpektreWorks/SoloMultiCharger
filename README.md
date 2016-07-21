@@ -15,7 +15,7 @@ The SpektreWorks Solo Multi-Charger is a single circuit 4-layer PCB that can cha
 
 In order to keep the component count and power requirements to a reasonable level, only two batteries charge at a time. Once a battery is done charging, the circuit automatically begins charging the next battery in the queue with no user intervention. The circuit always charges the battery with highest state of charge first. This way, the user only has to wait the shortest possible time to retrieve a fully charged battery.
 
-The Smart Battery and hand controller charge ports are actively current limited. This means that the circuit adjusts the voltage on these ports to not exceed a maximum current value. For the Smart Batteries, the maximum current is 3A. The hand controller is 1.5A. These values are adjustable in the firmware, however, it is not recommended to increase those numbers.
+The Smart Battery and hand controller charge ports are actively current limited. This means that the circuit adjusts the voltage on these ports to not exceed a maximum current value. For the Smart Batteries, the maximum current is 3.3A. The hand controller is 1.5A. These values are adjustable in the firmware, however, it is not recommended to increase those numbers.
 
 The design files in this kit do not include an enclosure of any kind. Users are encouraged to design their own enclosure for the purpose. Keep in mind, however, that this board can generate a lot of heat. Proper heat-sinking and air flow considerations are a very important part of the design.
   
